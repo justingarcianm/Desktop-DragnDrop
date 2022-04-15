@@ -6,22 +6,29 @@ function ContactForm() {
   }
   return (
       <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
+        <label htmlFor="email">From:
       <input
         id="email"
         type="email" 
         name="email"
+        placeholder=''
       />
+      </label>
       <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
+      <hr />
+      <div className='me' >
+        <p>To: Justin Garcia</p>
+      </div>
+      <hr />
       <textarea
         id="message"
         name="message"
+        placeholder='Message'
+        rows='5'
       />
       <ValidationError 
         prefix="Message" 
@@ -29,13 +36,17 @@ function ContactForm() {
         errors={state.errors}
       />
       <button type="submit" disabled={state.submitting}>
-        Submit
+        Send
       </button>
     </form>
   );
 }
 export const FormSpree = () => {
   return (
+    <>
+    <h3 className='formTitle'>Wanna talk more?</h3>
+    <hr />
     <ContactForm />
+    </>
   );
 }

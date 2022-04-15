@@ -1,0 +1,48 @@
+.formTitle {
+    margin: 0 0 .5rem .5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    margin: 1rem;
+}
+
+form input,
+form textarea {
+    margin: .5rem;
+    padding: 1rem;
+    
+    outline: none;
+    border: none;
+}
+
+form input:focus-visible,
+form textarea:focus-visible {
+    border: none!important;
+    box-shadow: 0 0 5px #719ECE;
+} 
+
+form .me p{
+    text-align: left;
+    padding: 1rem 0;
+}
+
+form button {
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #387780;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    border-left: 1px #fff solid;
+    border-radius: 5px;
+}
+
+
+
+form button:hover {
+    background-color: #4B9DAA;
+}
+

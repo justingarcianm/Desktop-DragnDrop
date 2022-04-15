@@ -1,7 +1,10 @@
-const MyPicture = () => {
+import myPic from '../../assets/unsplash.jpg'
+
+const MyPicture = (props) => {
+    console.log('props',props)
     return (
-        <div>
-            <h2>My Picture</h2>
+        <div className='myPic'>
+            <img src={myPic} alt="Justin Garcia" />
         </div>
     )
 }

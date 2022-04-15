@@ -1,0 +1,8 @@
+#About {
+    /* max-width: 600px;
+    overflow: scroll; */
+}
+
+#About > div > span {
+    white-space: pre-line!important;
+}

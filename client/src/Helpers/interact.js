@@ -1,6 +1,6 @@
 import interact from 'interactjs'
 
-const instanceDrag = () => {
+const interactDrag = () => {
     return interact('.draggable').draggable({
         modifiers: [
             interact.modifiers.restrictRect({
@@ -28,4 +28,4 @@ const dragMoveListener = event => {
     target.setAttribute('data-y',y)
 }
 
-export default instanceDrag
+export default interactDrag

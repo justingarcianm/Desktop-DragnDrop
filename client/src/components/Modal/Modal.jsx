@@ -1,10 +1,10 @@
 import { BiRadioCircleMarked } from 'react-icons/bi'
 
-const Modal = ({ modalObj, updateActivemodals, activeModals,updateModalInfo }) => {
+const Modal = ({ modalObj, updateActiveModals, activeModals,updateModalInfo }) => {
     // @param( none ) return { remove modal from state that is closed }
     const closeModal = () => {
         const removeModal = activeModals.filter( single => single !== modalObj )
-        updateActivemodals( removeModal )
+        updateActiveModals( removeModal )
         updateModalInfo( removeModal )
     }
     

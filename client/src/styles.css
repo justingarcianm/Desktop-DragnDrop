@@ -4,6 +4,10 @@
 @import url(./components/Desktop/Desktop.css);
 @import url(./components/Folder/Folder.css);
 @import url(./components/Modal/Modal.css);
+@import url(./components/Resume/Resume.css);
+@import url(./components/MyPicture/MyPicture.css);
+@import url(./components/Form/FormSpree.css);
+@import url(./components/Projects/Projects.css);
 
 /* GLOBALS */
 * {
