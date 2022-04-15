@@ -1,0 +1,5 @@
+.container {
+    background-color: #403F4C;
+    height: calc(100vh - 39.63px);
+    overflow: hidden;
+}
