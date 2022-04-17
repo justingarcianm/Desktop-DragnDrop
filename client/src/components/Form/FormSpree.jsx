@@ -11,7 +11,7 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
-        placeholder=''
+        placeholder='youremail@email.com'
       />
       </label>
       <ValidationError 

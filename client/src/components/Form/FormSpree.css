@@ -7,15 +7,17 @@ form {
     flex-direction: column;
     font-family: inherit;
     margin: 1rem;
+    width: 50vw;
 }
 
 form input,
 form textarea {
     margin: .5rem;
     padding: 1rem;
-    
+    background-color: transparent;
     outline: none;
     border: none;
+    width: 85%;
 }
 
 form input:focus-visible,

@@ -23,7 +23,7 @@ const dragMoveListener = event => {
     let y = (parseFloat(target.getAttribute('data-y')) || 0 ) + event.dy
 
     target.style.transform = `translate(${x}px,${y}px)`
-    target.style.opacity = `.5`
+    target.style.opacity = `.8`
     target.setAttribute('data-x',x)
     target.setAttribute('data-y',y)
 }

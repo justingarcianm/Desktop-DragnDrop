@@ -29,3 +29,8 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+
+:root {
+    --accent-bg: rgba(34,34,59, .5)
+}
