@@ -1,0 +1,12 @@
+.projectSingle {
+    max-width: 500px;
+}
+
+.projectSingle h3 {
+    margin: .5rem;
+}
+
+.project-content {
+    padding: 2rem;
+    text-align: left;
+}

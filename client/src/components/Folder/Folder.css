@@ -38,3 +38,7 @@
     top:10%;
     left:10%;
 }
+.draggable:nth-child(7) {
+    bottom:50%;
+    right:10%;
+}
